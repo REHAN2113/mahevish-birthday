@@ -15,38 +15,37 @@ interface Gift {
 export function GiftBoxes() {
   const [gifts, setGifts] = useState<Gift[]>([
     {
-      id: 1,
-      color: "bg-gradient-to-br from-pink-400 to-pink-600",
-      ribbonColor: "bg-yellow-400",
-      message: "You are my sunshine",
-      quote: "Every day with you feels like a beautiful dream that I never want to wake up from.",
-      isOpened: false,
-    },
-    {
-      id: 2,
-      color: "bg-gradient-to-br from-purple-400 to-purple-600",
-      ribbonColor: "bg-pink-400",
-      message: "My heart belongs to you",
-      quote: "In your eyes, I found my home. In your heart, I found my love. In your soul, I found my mate.",
-      isOpened: false,
-    },
-    {
-      id: 3,
-      color: "bg-gradient-to-br from-blue-400 to-blue-600",
-      ribbonColor: "bg-red-400",
-      message: "Forever and always",
-      quote:
-        "I choose you. And I'll choose you over and over and over. Without pause, without a doubt, in a heartbeat.",
-      isOpened: false,
-    },
-    {
-      id: 4,
-      color: "bg-gradient-to-br from-green-400 to-green-600",
-      ribbonColor: "bg-orange-400",
-      message: "You complete me",
-      quote: "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
-      isOpened: false,
-    },
+    id: 1,
+    color: "bg-gradient-to-br from-pink-400 to-pink-600",
+    ribbonColor: "bg-yellow-400",
+    message: "You're kaali mhais 🐃",
+    quote:"",
+    isOpened: false,
+  },
+  {
+    id: 2,
+    color: "bg-gradient-to-br from-purple-400 to-purple-600",
+    ribbonColor: "bg-pink-400",
+    message: "You're mental 🤪",
+    quote:"",
+    isOpened: false,
+  },
+  {
+    id: 3,
+    color: "bg-gradient-to-br from-blue-400 to-blue-600",
+    ribbonColor: "bg-red-400",
+    message: "You're idiot 😜",
+    quote:"",
+    isOpened: false,
+  },
+  {
+    id: 4,
+    color: "bg-gradient-to-br from-green-400 to-green-600",
+    ribbonColor: "bg-orange-400",
+    message: "Kuch bhi ho... but you're topper and very good in study 🎓",
+    quote:"",
+    isOpened: false,
+  },
   ])
 
   const openGift = (giftId: number) => {
@@ -151,19 +150,22 @@ export function GiftBoxes() {
             <h3 className="text-3xl font-playfair font-bold text-primary mb-6">A Special Message</h3>
             <Card className="p-8 bg-white/80 backdrop-blur-sm border-2 border-secondary/30 shadow-xl">
               <p className="text-lg font-source-sans text-foreground/80 leading-relaxed mb-4">
-                Mazi Tingu , Aani Fakt Aani Fakt Mazich Tingu , Mla Nay Mahit Prem Aslyavar Prem Proof karun Kas Dakhvat Mi Tujya Wr khrch
-                Khup Prem Krto but Mazya Shivay Mazya Kde Dusr Kahi Proof Nhi. Mla as vatt mi tujya sathi best nahi karan mi tula kadhi hasvl ny kadhi tula
-                khush thevl ny mi ek boring manus aahe mi fkt prem krun basloy baaki prem madhi kslya goshti kele jatat tyach kahich mahit nahi
-                bas radnya shivay dusr kahi yet ny Mla. mla ny mahit g tu achank majya shi boln ka band kel tu kahi sangat pn ny tujay manat je aal te krte 
-                mla pn feelings aahe re tingu , mla ajun pn tevdhich attatchment ahe re mla ajun pn tevdhch hurt hot . 
-                majya kadun kahi chuki zali asel tr maaf kr re tingu. aani mla tujya life madhi interfere ny karychy mi tula force ny karu shkt ki tu majya wr prem 
-                mla fakt yevdhch bolychy ki tu ek ghost lakshat thev ki tujya wr tujya peksha jast prem krnar koni ahe 
-                kadhi visru nko g mla aani i hope tula best life partner bhetel tumchi jodi sglyat best asel 
+               Dear Kaali Mhais,
+From childhood till now, you’ve been my daily dose of drama, madness, and nonstop bakbak. Sometimes you act like a scientist, sometimes like a full-time comedian, and most of the time… a certified mental case 🤪.
+
+ you’re such an idiot, but still… my favorite one.
+
+And yeah, I have to admit — kuch bhi ho, you’re a topper, super good in studies, and make everyone proud (even this annoyed brother 😤).
+
+So here’s to my annoying, crazy, cute, smart, and officially most dangerous sister in the world!
+Never change, because life would be too boring without my kaali mhais 🐃💖 
               </p>
               <p className="text-lg font-source-sans text-foreground/80 leading-relaxed">
-                  Aani Once Again Happy Birthday tinguuuuuuuu  💕
+                 Kuch bhi ho, you’re truly amazing in studies — a real topper who makes everyone proud. I might tease you every day, but deep down, I’m really proud to call you my sister ❤️
+
+And in the end, I just pray to Allah that He always keeps you happy, healthy, and successful in everything you do. May He protect you from every worry and bless you with endless joy and peace. 🤲💫
               </p>
-              <div className="mt-6 text-2xl font-playfair text-secondary">With all my love, always ❤️</div>
+              <div className="mt-6 text-2xl font-playfair text-secondary"></div>
             </Card>
           </div>
         </div>

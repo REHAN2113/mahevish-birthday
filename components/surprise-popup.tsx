@@ -32,11 +32,10 @@ export function SurprisePopup() {
         <Card className="max-w-2xl w-full p-8 text-center bg-gradient-romantic border-4 border-primary/30 shadow-2xl animate-fade-in-up">
           <div className="space-y-6">
             <div className="text-6xl animate-heartbeat">💖</div>
-            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary">I Love You Forever ❤️</h2>
+            <h2 className="text-4xl md:text-5xl font-playfair font-bold text-primary">Kaali Mhais ❤️</h2>
             <h3 className="text-3xl md:text-4xl font-playfair font-bold text-secondary">Happy Birthday!</h3>
             <p className="text-xl text-white font-source-sans text-foreground/80 leading-relaxed">
-              You are the love of my life, my best friend, and my greatest adventure. Thank you for being the most
-              amazing person I know. Here's to celebrating you today and always!
+             You are not just my sister but my best friend and my biggest blessing. Thank you for always being there with love, laughter, and support. You make life brighter and more beautiful. Here’s to celebrating you today and always! 💖
             </p>
             <div className="flex justify-center space-x-4 text-3xl">
               <span className="animate-bounce">🎂</span>
@@ -58,7 +57,7 @@ export function SurprisePopup() {
               size="lg"
               className="bg-gradient-sunset text-white hover:scale-105 transition-transform duration-200 text-xl px-8 py-4"
             >
-              Thank You My Love! 💕
+              Thank You  💕
             </Button>
           </div>
         </Card>

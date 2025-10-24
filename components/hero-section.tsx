@@ -41,7 +41,7 @@ export function HeroSection() {
             </h1>
           </SparklingText>
           <h2 className="text-4xl md:text-6xl font-playfair text-secondary mb-8">
-            <AnimatedText text="Tinguuu ❤️" delay={10} />
+            <AnimatedText text="Mahevish❤️" delay={10} />
           </h2>
 
           {/* Couple silhouettes animation */}
@@ -63,7 +63,7 @@ export function HeroSection() {
 
           <p className="text-xl font-source-sans text-foreground/80 max-w-2xl mx-auto leading-relaxed">
             <AnimatedText
-              text="Today is all about celebrating you and the incredible joy you bring to my life. Let's make this birthday magical together!"
+              text=""
               delay={3500}
             />
           </p>

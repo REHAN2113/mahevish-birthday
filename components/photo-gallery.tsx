@@ -21,39 +21,39 @@ export function PhotoGallery() {
     const photoData: Omit<Photo, "isVisible">[] = [
       {
         id: 1,
-        src: "/youme.jpg",
-        caption: "Our First Date",
-        memory: "13th Feb 2019 . Aapn bhetlo hoto dyandeep class chya stairs wr aani tu mala majya galavr haluch pappi dili hoti",
+        src: "/mahe1.jpg",
+        caption: "",
+        memory: "",
       },
       {
         id: 2,
-        src: "/gibli.jpg",
-        caption: "Premacha Dhappa",
-        memory: "Tujya College chya baher tu mala dhappa dila hota mi kiti ghabarlo hoto naa.",
+        src: "/mahe2.jpg",
+        caption: "",
+        memory: "",
       },
       {
         id: 3,
-        src: "/meyou.jpg",
-        caption: "Famous Cafe ",
-        memory: "Famous Cafe chya maagh aapn bhetlo hoto eka Kiti bhari moment hota naa.",
+        src: "/mahe3.jpg",
+        caption: " ",
+        memory: "",
       },
       {
         id: 4,
-        src: "/couple-sharing-a-picnic-in-nature.jpg",
-        caption: "Tu Ani Mi Majya Ghari",
-        memory: "Best Moments Of My Life kadhich Ny Visru Shakt Te Divas.",
+        src: "/mahe4.jpg",
+        caption: "",
+        memory: "",
       },
       {
         id: 5,
-        src: "/couple-watching-sunrise-together.jpg",
-        caption: "Aapli First Kiss",
-        memory: "Bhugol Cha Last Paper Tu Aani Mi Tujya Shalechya Classroom madhi .",
+        src: "/mahe5.jpg",
+        caption: "",
+        memory: "",
       },
       {
         id: 6,
-        src: "/couple-celebrating-anniversary-with-cake.jpg",
-        caption: " Aapli Aniversary",
-        memory: "Rasmalai Cake Banvl hot tu aaplay anivarsary chya divshi kadhich Ny visru shkt to divas.",
+        src: "/mahe6.jpg",
+        caption: "",
+        memory: "",
       },
     ]
 
@@ -72,9 +72,9 @@ export function PhotoGallery() {
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-playfair font-bold text-primary mb-6">Our Beautiful Memories</h2>
+          <h2 className="text-4xl md:text-6xl font-playfair font-bold text-primary mb-6"></h2>
           <p className="text-xl font-source-sans text-foreground/70 max-w-2xl mx-auto">
-            Every photo tells a story of our love. Click on any memory to relive those special moments together.
+           
           </p>
         </div>
 
