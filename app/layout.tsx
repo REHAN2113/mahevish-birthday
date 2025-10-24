@@ -18,14 +18,13 @@ const sourceSans = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: "Happy Birthday My Love ❤️ | A Magical Celebration",
+  title: "Happy Birthday  ❤️ ",
   description:
-    "A romantic and magical birthday celebration website filled with love, animations, and beautiful memories. Made with endless love for the most special person.",
-  keywords: "birthday, love, romantic, celebration, anniversary, special day",
-  authors: [{ name: "Your Loving Partner" }],
+    "",
+  authors: [{ name: "" }],
   openGraph: {
-    title: "Happy Birthday My Love ❤️",
-    description: "A magical birthday celebration for the most special person",
+    title: "Happy Birthday ❤️",
+    description: "",
     type: "website",
   },
   generator: "v0.app",
